@@ -141,6 +141,8 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="SonarSweep.cpp" />
+    <ClCompile Include="Move.cpp" />
+    <ClCompile Include="Submarine.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h" />

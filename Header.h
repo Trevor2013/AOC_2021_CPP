@@ -1,5 +1,16 @@
 #pragma once
 #include <vector>
+#include <iostream>
+#include <sstream>
 
-int sweep(std::vector<int> arr);
+
+
+class Submarine {
+public:
+	int horizontalPosition;
+	int depthPosition;
+	void position();
+	int sweep(std::vector<int> arr);
+};
+
 
